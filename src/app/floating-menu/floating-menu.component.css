@@ -1,0 +1,40 @@
+.abs {
+  position: fixed;
+  z-index: 100000;
+  bottom: 0;
+  top: 10px;
+}
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+}
+.container div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.right:hover,
+.left:hover,
+.top:hover,
+.bottom:hover {
+  opacity: 0.5;
+}
+.center {
+  background-color: #999;
+  opacity: 0.4;
+  width: 100%;
+}
+.right,
+.left,
+.top,
+.bottom {
+  background-color: #1c87c9;
+}
+.none {
+  display: none;
+}
+.show {
+  display: grid;
+}
